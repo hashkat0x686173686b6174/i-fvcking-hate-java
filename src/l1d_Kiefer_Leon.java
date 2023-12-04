@@ -35,7 +35,7 @@ public class l1d_Kiefer_Leon {
                     System.out.println("Invalid operation.");
                     continue;
             }
-            System.out.println("What does `" + num1 + " " + operation + " " + num2 + "` evaluate to?");
+            System.out.println("What does '" + num1 + " " + operation + " " + num2 + "' evaluate to?");
             float userAnswer = scanner.nextFloat();
             if (userAnswer == correctAnswer) {
                 System.out.println("Correct!");
