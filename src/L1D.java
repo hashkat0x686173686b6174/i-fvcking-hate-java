@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Random;
 
-public class l1d_Kiefer_Leon {
+public class L1D {
     public static void main(String[] args) {
         // Define objects
         Scanner scanner = new Scanner(System.in);
