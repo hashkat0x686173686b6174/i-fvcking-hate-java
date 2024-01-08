@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+
+// TODO: JavaDOC for Method and Class
+// TODO: Try Catch for error handling and faulty input
 public class I2E {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
