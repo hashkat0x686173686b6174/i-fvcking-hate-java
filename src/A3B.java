@@ -28,17 +28,15 @@ public class A3B {
         String input;
 
         do {
-            System.out.print("Bitte geben Sie ein Alter ein (oder 'ende' zum Beenden): ");
+            System.out.print("Bitte geben Sie ein Alter ein oder 'ende' zum Beenden: ");
             input = scanner.nextLine();
 
             // Check if the user wants to end the loop
-            if (input.equalsIgnoreCase("ende")) {
+            if (input.equalsIgnoreCase("ende"))
                 break;
-            }
 
             boolean hasOnlyDigits = isNumeric(input);
             printNumericStatus(input, hasOnlyDigits);
-
         } while (true);
 
         scanner.close();
