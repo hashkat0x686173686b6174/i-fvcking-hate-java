@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * @author Léon Kiefer
  * @version 15.01.2024 - 0.1.0
- * <p>
+ *
  * This class contains methods to check if a string is numeric and to interact with the user.
  */
 public class A3B {
