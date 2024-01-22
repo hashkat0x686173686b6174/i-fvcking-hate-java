@@ -7,7 +7,6 @@ import java.util.Scanner;
  * This class contains methods to check if a string is numeric and to interact with the user.
  */
 public class A3B {
-
     /**
      * Checks if the input string contains only Unicode digits.
      *
